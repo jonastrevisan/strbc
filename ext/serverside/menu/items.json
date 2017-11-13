@@ -1,0 +1,69 @@
+[
+    {
+        "text" 		: "Cadastros",
+        "expanded"	: true,
+        "children" 	: [
+            {
+                "text"          : "Socios",
+                "leaf"          : true,
+                "xtypeClass"    : "ncmslist",
+                "controllerName": "Strbc.controller.socio.Socios"        
+            },{
+                "text"          : "Desfiliados",
+                "leaf"          : true,
+                "xtypeClass"    : "sociosdesfiliados",
+                "controllerName": "Strbc.controller.socio.SociosDesfiliados"        
+            }
+            ]
+    },
+    {
+        "text" 		: "Cobrancas",
+        "expanded"	: true,
+        "children" 	: [
+            {
+                "text"          : "Cobrancas",
+                "leaf"          : true,
+                "xtypeClass"    : "crudProduto",
+                "controllerName": "Strbc.controller.pagamentos.Pagamentos"        
+            }
+            
+        ]
+    },
+    {
+        "text"      : "Aniversariantes",
+        "expanded"  : true,
+        "children"  : [
+             {
+                "text"          : "Aniversariantes",
+                "leaf"          : true,
+                "xtypeClass"    : "gridaniversariantes",
+                "controllerName": "Strbc.controller.aniversariante.Aniversariantes"        
+            }
+            
+        ]
+    } , {
+        "text"      : "Devedores",
+        "expanded"  : true,
+        "children"  : [
+             {
+                "text"          : "Devedores",
+                "leaf"          : true,
+                "xtypeClass"    : "griddevedor",
+                "controllerName": "Strbc.controller.devedores.Devedores"        
+            }
+            
+        ]
+    } , {
+        "text"      : "Pagadores",
+        "expanded"  : true,
+        "children"  : [
+             {
+                "text"          : "Em dia",
+                "leaf"          : true,
+                "xtypeClass"    : "gridpagadores",
+                "controllerName": "Strbc.controller.pagouAte.PagouAte"        
+            }
+            
+        ]
+    }       
+]

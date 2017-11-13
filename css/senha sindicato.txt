@@ -1,0 +1,13 @@
+<?php
+  $host    = "184.173.23.21";  //ip ou endereço do servidor
+  $usuario = "jonas";         //usuário
+  $senha   = "hotsjj";   //senha
+  $dbase   = "strbccom_";         //banco que será usado nesta conexão
+  
+  $con = mysql_connect($host,$usuario,$senha);	//Efetua a conexão com o BD
+  $db  = mysql_select_db($dbase, $con);			//Seleciona a base de dados
+  if (!$con) {
+    echo "Erro de conexão ao banco de dados!";
+    exit();    
+  }
+?>

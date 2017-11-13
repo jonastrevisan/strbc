@@ -1,0 +1,55 @@
+.menu-cadastros {
+	background: url('../../ico/menu/cadastros.png') no-repeat;
+}
+
+.menu-operacoes {
+	background: url('../../ico/menu/operacoes.png') no-repeat;
+}
+
+.menu-ferramentas {
+	background: url('../../ico/menu/ferramentas.png') no-repeat;
+}
+
+.menu-sair {
+	background: url('../../ico/menu/sair.png') no-repeat;
+}
+
+.usuario-1 {
+	background: url('../../ico/submenu/user1.png') no-repeat;
+}
+
+.useraccount-item {
+	background: url('../../ico/submenu/database.png') no-repeat;
+}
+
+.lock_key {
+	background: url('../../ico/submenu/lock_key.png') no-repeat;
+}
+
+.help-item {
+	background: url('../../ico/submenu/help-icon.png') no-repeat;
+}
+
+.sair-item {
+	background: url('../../ico/submenu/sair-16.png') no-repeat;
+}
+
+.expand {
+	background: url('../../ico/tree/expand.png') no-repeat;
+}
+
+.collapse {
+	background: url('../../ico/tree/collapse.png') no-repeat;
+}
+
+.fechar-aba {
+	background: url('../../ico/abas/fechar-aba.png') no-repeat;
+}
+
+.fechar-todas-abas {
+	background: url('../../ico/abas/fechar-todas-abas.png') no-repeat;
+}
+
+.fechar-outras-abas {
+	background: url('../../ico/abas/fechar-outras-abas.png') no-repeat;
+}

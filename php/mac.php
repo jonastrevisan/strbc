@@ -1,0 +1,10 @@
+﻿<?php
+/*
+*CRIADO POR: ALEXANDRE GOMES DE LIMA SILVA
+* blog: silvalexandre.wordpress.com
+*MANTER CRÉDITOS
+*/
+$shell = shell_exec('ipconfig -all');//EXECUTA UM COMANDO NA SHELL QUE SOLICITA TUDO DO IP | IPCONFIG -ALL
+$mac = explode(" ", $shell);//EXPLODE A VARIÁVEL EM UM ARRAY, PARA SELECIONAR SOMENTE O ENDEREÇO MAC
+echo $mac[183];//DEPOIS DE EXPLODIDA, EXIBE O VALOR DA MAC
+?>

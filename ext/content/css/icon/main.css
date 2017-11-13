@@ -1,0 +1,144 @@
+.botoes-salvar {
+	background: url('content/ico/salvar.png') no-repeat;
+}
+
+.botoes-delete {
+	background: url('content/ico/delete.png') no-repeat;
+}
+
+.botoes-cancel {
+	background: url('content/ico/cancel.png') no-repeat;
+}
+
+.botoes-add {
+	background: url('content/ico/add.png') no-repeat;
+}
+
+.botoes-check {
+	background: url('content/ico/ativa.png') no-repeat;
+}
+.botoes-activeInative {
+	background: url('content/ico/ativarInativar.png') no-repeat;
+}
+.botoes-uncheck {
+	background: url('content/ico/inativa.png') no-repeat;
+}
+
+.botoes-search {
+	background: url('content/ico/procurar.png') no-repeat;
+}
+
+.botoes-import {
+	background: url('content/ico/down.png') no-repeat;
+}
+
+.botoes-export {
+	background: url('content/ico/up.png') no-repeat;
+}
+
+.botoes-close {
+	background: url('content/ico/close.png') no-repeat;
+}
+
+.botoes-edit {
+	background: url('content/ico/edit.png') no-repeat;
+}
+
+.botoes-clear {
+	background: url('content/ico/limpar.png') no-repeat;
+}
+
+.botoes-bound {
+	background: url('content/ico/vincular.png') no-repeat;
+}
+
+.botoes-unbound {
+	background: url('content/ico/unbound.png') no-repeat;
+}
+
+.botoes-print {
+	background: url('content/ico/print.png') no-repeat;
+}
+
+.botoes-notification {
+	background: url('content/ico/notification.png') no-repeat;
+}
+
+.botoes-analysis {
+	background: url('content/ico/analise.png') no-repeat;
+}
+.botoes-back {
+	background: url('../../../content/ico/icon/back.png') no-repeat;
+}
+.child-row .x-grid-cell {
+	color: #900;
+}
+
+.adult-row .x-grid-cell {
+	background-color: #e2ffe2;
+	color: #090;
+}
+.icon-user {
+    background-image: url(../../../content/ico/user.png) !important;
+}
+
+.icon-user-add {
+    background-image: url(../../../content/ico/user_add.gif) !important;
+}
+
+.icon-save {
+    background-image: url(../../../content/ico/save.gif) !important;
+}
+
+.icon-reset {
+    background-image: url(../../../content/ico/stop.png) !important;
+}
+
+.icon-grid {
+    background-image: url(../../../content/ico/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(../../../content/ico/add.png) !important;
+}
+
+.icon-delete {
+    background-image: url(../../../content/ico/delete.png) !important;
+}
+.icon-link {
+    background-image: url(../../../content/ico/link.png) !important;
+}
+.icon-desfiliar {
+    background-image: url(../../../content/ico/link_break.png) !important;
+}
+.icon-menu_desfiliacao {
+    background-image: url(../../../content/ico/group_link.png) !important;
+}
+.icon-socios {
+    background-image: url(../../../content/ico/user_group.png) !important;
+}
+.icon-socios-desfiliados {
+    background-image: url(../../../content/ico/user_delete.gif) !important;
+}
+.icon-logout {
+    background-image: url(../../../content/ico/exit.png) !important;
+}
+.icon-editar {
+    background-image: url(../../../content/ico/editar-icon.png) !important;
+}
+.icon-deletar {
+    background-image: url(../../../content/ico/deletar-icon.png) !important;
+}
+.icon-baixa {
+    background-image: url(../../../content/ico/arrow_down.png) !important;
+}
+.icon-book {	
+    background-image: url(../../../content/ico/book.png) !important;
+}
+.x-action-col-cell img.pago { 
+   background-image: url(../../../content/ico/estornar.png) !important;
+} 
+ .x-action-col-cell img.aberto { 
+    background-image: url(../../../content/ico/arrow_down.png) !important;
+ } 
+ 

@@ -1,0 +1,63 @@
+﻿.icon-user {
+    background-image: url(content/ico/user.png) !important;
+}
+
+.icon-user-add {
+    background-image: url(content/ico/user_add.gif) !important;
+}
+
+.icon-save {
+    background-image: url(content/ico/save.gif) !important;
+}
+
+.icon-reset {
+    background-image: url(content/ico/stop.png) !important;
+}
+
+.icon-grid {
+    background-image: url(content/ico/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(content/ico/add.png) !important;
+}
+
+.icon-delete {
+    background-image: url(content/ico/delete.png) !important;
+}
+.icon-link {
+    background-image: url(content/ico/link.png) !important;
+}
+.icon-desfiliar {
+    background-image: url(content/ico/link_break.png) !important;
+}
+.icon-menu_desfiliacao {
+    background-image: url(content/ico/group_link.png) !important;
+}
+.icon-socios {
+    background-image: url(content/ico/user_group.png) !important;
+}
+.icon-socios-desfiliados {
+    background-image: url(content/ico/user_delete.gif) !important;
+}
+.icon-logout {
+    background-image: url(content/ico/exit.png) !important;
+}
+.icon-editar {
+    background-image: url(content/ico/editar-icon.png) !important;
+}
+.icon-deletar {
+    background-image: url(content/ico/deletar-icon.png) !important;
+}
+.icon-baixa {
+    background-image: url(content/ico/arrow_down.png) !important;
+}
+.icon-book {
+    background-image: url(content/ico/book.png) !important;
+}
+.x-action-col-cell img.pago { 
+   background-image: url(content/ico/estornar.png) !important;
+} 
+ .x-action-col-cell img.aberto { 
+    background-image: url(content/ico/arrow_down.png) !important;
+ } 

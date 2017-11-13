@@ -1,0 +1,24 @@
+﻿.cBoxLeft {
+	margin-top:0px;
+	float: left;
+	height: 100%;
+	width: 400px;
+}
+.cBoxContent {
+	display: inline-block;
+	height: 100%;
+	width: 60%;
+}
+.cBoxBottom {
+	height: 80px;
+	clear: both;
+}
+.cBoxTop {
+	/*display: inline-block;
+	height: 180px;
+	width: 60%;*/ width: 100%;
+        position: relative;
+        top: 0px;
+        height: 80px;
+        /*clear: both;*/
+}
