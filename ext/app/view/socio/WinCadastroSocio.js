@@ -92,9 +92,9 @@ Ext.define('Strbc.view.socio.WinCadastroSocio', {
                 flex: 1,
 				store: new Ext.data.ArrayStore({
 				   fields: [ 'cidadeatual', 'cidadeatualDescricao'],
-					data: [[1, 'Barracão - PR'],
-					 [2, 'Bom Jesus do Sul - PR'],
-					 [3, 'Dionisio Cerqueira - SC']]
+					data: [['1', 'Barracão - PR'],
+					 ['2', 'Bom Jesus do Sul - PR'],
+					 ['3', 'Dionisio Cerqueira - SC']]
 					}),
 				valueField: 'cidadeatual',
 				 displayField: 'cidadeatualDescricao',
