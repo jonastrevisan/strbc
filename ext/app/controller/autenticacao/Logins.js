@@ -103,23 +103,31 @@ Ext.define('Strbc.controller.autenticacao.Logins', {
 							debugger
 							// if(batch.proxy.requestMessage.success)
 							// {
-							if (values.lembrar == 'on') {
-								Ext.util.Cookies.set('lembrarSenha', 'S');
-								Ext.util.Cookies.set('senha', values.senha);
-								Ext.util.Cookies.set('usuario', values.usuario);
+							var retLogin = Ext.decode(batch.responseText);
+							if(retLogin.success) {
+								if (values.lembrar == 'on') {
+									Ext.util.Cookies.set('lembrarSenha', 'S');
+									Ext.util.Cookies.set('senha', values.senha);
+									Ext.util.Cookies.set('usuario', values.usuario);
+								} else {
+									Ext.util.Cookies.set('lembrarSenha', 'N');
+									Ext.util.Cookies.set('senha', '');
+									Ext.util.Cookies.set('usuario', '');
+								}
+								sessionStorage.setItem('ticketAcesso', Ext.decode(batch.responseText).ticket);
+								me.application.fireEvent('authchange', !!sessionStorage.getItem('ticketAcesso'));
+								// sessionStorage.setItem('ticketAcesso',
+								// batch.proxy.requestMessage.admin);
+								Ext.ux.Msg.flash({
+										msg: 'Login efetuado com sucesso',
+										type: 'success'
+									});
 							} else {
-								Ext.util.Cookies.set('lembrarSenha', 'N');
-								Ext.util.Cookies.set('senha', '');
-								Ext.util.Cookies.set('usuario', '');
+								Ext.ux.Msg.flash({
+										msg: 'Login ou senha incorreto(s)',
+										type: 'error'
+									});
 							}
-							sessionStorage.setItem('ticketAcesso', Ext.decode(batch.responseText).ticket);
-							me.application.fireEvent('authchange', !!sessionStorage.getItem('ticketAcesso'));
-							// sessionStorage.setItem('ticketAcesso',
-							// batch.proxy.requestMessage.admin);
-							Ext.ux.Msg.flash({
-									msg: 'Login efetuado com sucesso',
-									type: 'success'
-								});
 							// }
 							/*
 							 * else {

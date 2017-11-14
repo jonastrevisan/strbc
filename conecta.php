@@ -1,8 +1,5 @@
-﻿
- <?php
-
-final class conecta
-{
+<?php
+final class conecta {
 
     private $link;
 
@@ -16,7 +13,6 @@ final class conecta
         mysqli_query($this->link, "SET CHARACTER SET utf8");
         mysqli_query($this->link, "SET CHARACTER_SET_CONNECTION=utf8");
         mysqli_query($this->link, "SET SQL_MODE = ''");
-        
       /*  mysqli_query("SET NAMES 'utf8'");
         mysqli_query('SET character_set_connection=utf8');
         mysqli_query('SET character_set_client=utf8');
@@ -87,5 +83,4 @@ final class conecta
         }
     }
 }
-
 ?>

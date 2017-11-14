@@ -16,8 +16,7 @@ if (! empty($us) && ! empty($se)) {
             "success" => false,
             "admin" => "",
             "ticket" => "",
-            "mensagem" => "a"
-        
+            "mensagem" => "a"        
         ));
     } else {
         while ($res = $query->fetch_assoc()) {
@@ -64,5 +63,4 @@ if (! empty($us) && ! empty($se)) {
         "mensagem" => "Usuario ou senha nao foram informados"
     ));
 }
-
 ?>
