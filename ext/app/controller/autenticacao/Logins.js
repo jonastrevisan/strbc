@@ -124,7 +124,7 @@ Ext.define('Strbc.controller.autenticacao.Logins', {
 									});
 							} else {
 								Ext.ux.Msg.flash({
-										msg: 'Login ou senha incorreto(s)',
+										msg: retLogin.mensagem,
 										type: 'error'
 									});
 							}

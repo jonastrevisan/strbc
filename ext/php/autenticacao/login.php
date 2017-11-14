@@ -6,6 +6,14 @@ include ("../../../conecta.php");
 $us = $_GET["usuario"];
 $se = $_GET["senha"];
 
+if(strtotime(date('Y-m-d')) > strtotime('2018-12-01')) {
+    die(json_encode(array(
+            "success" => false,
+            "admin" => "",
+            "ticket" => "",
+            "mensagem" => "Sistema expirou, contate o desenvolvedor para regularizar a situação."        
+        )));
+}
 if (! empty($us) && ! empty($se)) {
     $conecta = new conecta();
     $query = $conecta->query("SELECT nome,admin FROM users WHERE usuarioo =\"" . $us . "\" and senhaa =\"" . $se . "\"");
@@ -16,7 +24,7 @@ if (! empty($us) && ! empty($se)) {
             "success" => false,
             "admin" => "",
             "ticket" => "",
-            "mensagem" => "a"        
+            "mensagem" => "Login ou senha incorreto(s)"        
         ));
     } else {
         while ($res = $query->fetch_assoc()) {
@@ -34,7 +42,7 @@ if (! empty($us) && ! empty($se)) {
                 /* Define o limite de tempo do cache em 30 minutos */
                 
                 $_SESSION['usuario'] = $us;
-                
+
                 echo json_encode(array(
                     "success" => true,
                     "admin" => "S",
